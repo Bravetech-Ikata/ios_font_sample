@@ -407,7 +407,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.bravetechnology.ios.fontsample.FontSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.bravetechnology.ios.fontsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -418,7 +418,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FontSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.co.bravetechnology.ios.fontsample.FontSample;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.bravetechnology.ios.fontsample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -490,6 +490,7 @@
 				C0C56DB81C9F986800FFF7F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0C56DB91C9F986800FFF7F4 /* Build configuration list for PBXNativeTarget "FontSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +499,7 @@
 				C0C56DBB1C9F986800FFF7F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0C56DBC1C9F986800FFF7F4 /* Build configuration list for PBXNativeTarget "FontSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +508,7 @@
 				C0C56DBE1C9F986800FFF7F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
