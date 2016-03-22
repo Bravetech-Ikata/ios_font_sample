@@ -26,10 +26,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.familyNameArr = UIFont.familyNames()
+        self.fontNameArr = self.familyNameArr.sort {$0 < $1}
         for item in self.familyNameArr {
             self.fontNameArr.append(item)
+            print(item)
         }
-        
         self.btnChange.setTitle("フォントに変更", forState: UIControlState.Normal)
         
         self.tableView.delegate = self
@@ -85,6 +86,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             for item in self.familyNameArr {
                 self.fontNameArr.append(item)
             }
+            self.fontNameArr = self.fontNameArr.sort {$0 < $1}
             break
         case .FAMILY:
             self.btnChange.setTitle("ファミリーに変更", forState: UIControlState.Normal)
@@ -96,6 +98,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     self.fontNameArr.append(item2)
                 }
             }
+            self.fontNameArr = self.fontNameArr.sort {$0 < $1}
             break
         }
         self.tableView.reloadData()
